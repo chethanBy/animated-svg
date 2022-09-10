@@ -1,0 +1,6 @@
+1)svg has g and path elements.Each path is a seperate unique svg image or render etc. g is a group and a group can have 2 or more path
+2)path has fill attribute and we need to remove with so we cannn use fill property too color svg images
+3)document.elementDocument.style.cssText="color:red;" will get root element of document and sets its style to whatever css property
+
+
+used Figma

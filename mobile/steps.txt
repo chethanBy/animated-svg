@@ -1,0 +1,11 @@
+1)assign a variable to an element in inline styles
+2)Then we can use that in css to dynamically stagger animations 
+<path style="--stagger:1">
+<path style="--stagger:2">
+<path style="--stagger:3">
+<path style="--stagger:4">
+<path style="--stagger:5">
+
+path {
+    transition delay: calc(var(--stagger)*200)
+}
